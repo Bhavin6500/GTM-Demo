@@ -1,0 +1,15 @@
+.image-container {
+  width: 100%; /* Ensure it takes the full width of the column */
+  height: 200px; /* Fixed height for the image container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide overflow if images exceed the container size */
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire area without distortion */
+  object-position: center; /* Center the image */
+}
